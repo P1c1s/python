@@ -1,3 +1,13 @@
+# Indice
+1. [Preparazione ambiente di sviluppo](#preparazione-ambiente-di-sviluppo)
+2. [Caratteristiche di Python](#caratteristiche-di-python)
+3. [Link utili](#link-utli)
+
+# Preparazione ambiente di sviluppo
+* [Download python](https://www.python.org/downloads/windows/) - Isntallazione python
+* [Visual Studio Code](https://code.visualstudio.com/download) - Text editor per modificare il codice sorgente
+* [Estensione Python](https://marketplace.visualstudio.com/items/?itemName=ms-python.python) - Estensione per eseguire scritp python direttamente da Vs Code
+
 # Caratteristiche di Python
 Python è un linguaggio di programmazione ad alto livello, noto per la sua semplicità e leggibilità. Di seguito sono elencate alcune delle sue principali caratteristiche:
 
@@ -18,3 +28,8 @@ Il codice Python può essere eseguito su diverse piattaforme senza necessità di
 
 ### 6. Indentazione
 ....
+
+# Link utili
+
+[Python cheatsheet](https://quickref.me/python)
+[Esercizi](https://www.programmareinpython.it/esercizi-python/)
