@@ -111,3 +111,10 @@ for carattere in stringa1:
 nome = "Alice"
 f"Benvenuta, {nome}!"  # "Benvenuta, Alice!"
 ```
+
+altro
+```python
+stringa = "ciao"
+stringa.count('a') # Output 1 
+```
+

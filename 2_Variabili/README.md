@@ -20,7 +20,6 @@
 4. [Casting](#casting)
 5. [Istruzione type()](#istruzione-type)
 
-
 ## Gestione delle variabili
 
 Una variabile è un contenitore - denotato da un nome - che contiene a un valore. Le variabili sono utilizzate per memorizzare dati che possono essere utilizzati e manipolati nel programma.
@@ -210,6 +209,10 @@ int('11')         #11
 # Esempi di casting in float
 float(1)          #1.0
 float("12")       #12.0
+
+# Esempi di casting in carattere
+chr(99)            # 'c'
+str(88)           # 'X'
 
 # Esempi di casting in float
 str(1)            #'1'

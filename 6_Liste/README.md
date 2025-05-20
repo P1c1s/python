@@ -4,14 +4,14 @@ Questo documento fornisce una panoramica delle operazioni di base che puoi esegu
 
 ## Indice
 1. [Creazione di una lista](#1-creazione-di-una-lista)
-2. [Lunghezza di una lista](#lunghezza-di-una-lista)
-2. [Accesso agli elementi](#2-accesso-agli-elementi)
-3. [Modifica di una lista](#3-modifica-di-una-lista)
-4. [Aggiunta di elementi](#4-aggiunta-di-elementi)
-5. [Rimozione di elementi](#5-rimozione-di-elementi)
-6. [Ordinamento di una lista](#6-ordinamento-di-una-lista)
-7. [Iterazione su una lista](#7-iterazione-su-una-lista)
-8. [Controllo lista vuota](#7-iterazione-su-una-lista)
+2. [Lunghezza di una lista](#2-lunghezza-di-una-lista)
+3. [Accesso agli elementi](#3-accesso-agli-elementi)
+4. [Modifica di una lista](#4-modifica-di-una-lista)
+5. [Aggiunta di elementi](#5-aggiunta-di-elementi)
+6. [Rimozione di elementi](#6-rimozione-di-elementi)
+7. [Ordinamento di una lista](#7-ordinamento-di-una-lista)
+8. [Iterazione su una lista](#8-iterazione-su-una-lista)
+9. [Controllo lista vuota](#9-iterazione-su-una-lista)
 
 ## 1. Creazione di una lista
 
@@ -25,7 +25,7 @@ lista_vuota = []
 lista_numeri = [1, 2, 3, 4, 5]
 lista_frutta = ["mela", "banana", "ciliegia"]
 ```
-## Lunghezza di una lista
+## 2. Lunghezza di una lista
 ```
 # Lista con tre elementi
 lista = [1, 2, 3]
@@ -34,7 +34,7 @@ lista = [1, 2, 3]
 len(lista)
 ```
 
-## 2. Accesso agli elementi
+## 3. Accesso agli elementi
 
 Puoi accedere agli elementi di una lista utilizzando l'indice, che inizia da 0.
 
@@ -47,7 +47,7 @@ primo_elemento = lista_numeri[0]  # 1
 ultimo_elemento = lista_frutta[-1]  # "ciliegia"
 ```
 
-## 3. Modifica di una lista
+## 4. Modifica di una lista
 
 Puoi modificare un elemento di una lista assegnando un nuovo valore all'indice desiderato.
 
@@ -57,7 +57,7 @@ lista_numeri = [1, 2, 3, 4, 5]
 lista_numeri[1] = 20  # lista_numeri diventa [1, 20, 3, 4, 5]
 ```
 
-## 3. Aggiunta di elementi
+## 5. Aggiunta di elementi
 
 Puoi aggiungere elementi a una lista utilizzando il metodo `append()` o `insert()`.
 
@@ -71,7 +71,7 @@ lista_frutta.insert(1, "arancia")  # lista_frutta diventa ["mela", "arancia", "b
 ```
 
 
-## 4. Rimozione di elementi
+## 6. Rimozione di elementi
 
 Puoi rimuovere elementi da una lista utilizzando il metodo `remove()` o `pop()`.
 
@@ -84,7 +84,7 @@ lista_frutta.remove("banana")  # lista_frutta diventa ["mela", "arancia", "cilie
 ultimo_elemento = lista_numeri.pop()  # rimuove 6 e lo assegna a ultimo_elemento
 ```
 
-## 5. Ordinamento di una lista
+## 7. Ordinamento di una lista
 
 Puoi ordinare una lista utilizzando il metodo `sort()` o la funzione `sorted()`.
 
@@ -97,7 +97,7 @@ lista_numeri.sort()  # lista_numeri diventa [1, 3, 4, 5, 20]
 lista_ordinata = sorted(lista_frutta)  # lista_ordinata contiene ["arancia", "ciliegia", "mela"]
 ```
 
-## 6. Iterazione su una lista
+## 8. Iterazione su una lista
 
 Puoi iterare su una lista utilizzando un ciclo `for`.
 
@@ -107,7 +107,7 @@ for frutta in lista_frutta:
     print(frutta)
 ```
 
-## Controllo lista vuota
+## 9. Controllo lista vuota
 
 ```python
 lista = []
@@ -120,4 +120,12 @@ if not lista:
     print("Vuota.")
 else:
     print("Piena.")
+```
+
+
+Altro
+
+``` python
+lista.reverse()
+
 ```
