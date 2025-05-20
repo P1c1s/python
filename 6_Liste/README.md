@@ -11,6 +11,7 @@ Questo documento fornisce una panoramica delle operazioni di base che puoi esegu
 5. [Rimozione di elementi](#5-rimozione-di-elementi)
 6. [Ordinamento di una lista](#6-ordinamento-di-una-lista)
 7. [Iterazione su una lista](#7-iterazione-su-una-lista)
+8. [Controllo lista vuota](#7-iterazione-su-una-lista)
 
 ## 1. Creazione di una lista
 
@@ -104,4 +105,19 @@ Puoi iterare su una lista utilizzando un ciclo `for`.
 
 for frutta in lista_frutta:
     print(frutta)
+```
+
+## Controllo lista vuota
+
+```python
+lista = []
+
+if len(lista) == 0:
+    ...
+
+
+if not lista:
+    print("Vuota.")
+else:
+    print("Piena.")
 ```

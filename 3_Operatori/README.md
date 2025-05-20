@@ -16,9 +16,8 @@ Python supporta diversi tipi di operatori che consentono di eseguire operazioni 
 
 Gli operatori aritmetici vengono utilizzati per eseguire operazioni matematiche.
 
-| Operatore | Nome               | Esempio          |
+| Operatore | Nome               | Utilizzo          |
 |-----------|---------------------------|------------------|
-| `=`       | Assegnazione              | `a = 1`          |
 | `+`       | Somma                     | `a + b`          |
 | `-`       | Sottrazione               | `a - b`          |
 | `*`       | Moltiplicazione           | `a * b`          |
@@ -43,15 +42,18 @@ print(a ** b)    # Output: 1000
 
 ## 2. Operatori di assegnazione
 
-| Operatore | Descrizione               | Esempio          |
-|-----------|---------------------------|------------------|
-| `+=`      | Assegnazione semplice     | `a += 1`         |
-| `-=`      | Aggiunta e assegnazione   | `a -= 1`         |
-| `*=`      | Moltiplicazione e assegnazione              | `a /= 1`         |
-| `/=`      | Divisione e assegnazione   | `a -= 1`         |
-| `//=`     | Divisione intera e assegnazione | `a //= 2`        |
-| `%=`      | Modulo e assegnazione           | `a %= 2`        |
-| `**=`     | Potenza e assegnazione          | `a **= 2`        |
+Gli operatori di assegnazione vengono utilizzati per assegnare valori a variabili.
+
+| Operatore | Descrizione                      | Utilizzo          |
+|-----------|----------------------------------|------------------|
+| `=`       | Assegnazione semplice           | `a = 1`          |
+| `+=`      | Aggiunta e assegnazione          | `a += 1`         |
+| `-=`      | Sottrazione e assegnazione       | `a -= 1`         |
+| `*=`      | Moltiplicazione e assegnazione   | `a *= 2`         |
+| `/=`      | Divisione e assegnazione         | `a /= 2`         |
+| `//=`     | Divisione intera e assegnazione  | `a //= 2`        |
+| `%=`      | Modulo e assegnazione            | `a %= 2`         |
+| `**=`     | Potenza e assegnazione           | `a **= 2`        |
 
 
 ### Esempi
@@ -84,7 +86,7 @@ print(a)  # Output: 1.0
 
 Gli operatori di confronto vengono utilizzati per confrontare due valori.
 
-| Operatore | Descrizione                     | Esempio         |
+| Operatore | Descrizione                     | Utilizzo         |
 |-----------|---------------------------------|------------------|
 | `==`      | Uguale                          | `a == b`         |
 | `!=`      | Diverso                         | `a != b`         |
@@ -117,8 +119,9 @@ print(a <= b)  # Output: False (10 non è minore o uguale a 5)
 ```
 
 ## 4. Operatori logici
+Gli operatori logici vengono utilizzati per combinare espressioni booleane e restituire un valore booleano (True o False).
 
-| Operatore | Descrizione                     | Esempio         |
+| Operatore | Descrizione                     | Utilizzo         |
 |-----------|---------------------------------|------------------|
 | `and`     | E logico                       | `a and b`        |
 | `or`      | O logico                       | `a or b`         |
@@ -143,7 +146,9 @@ print(not b)    # Output: True (inverte il valore di b)
 
 ## 5. Operatori bitwise
 
-| Operatore | Descrizione                     | Esempio         |
+Gli operatori bitwise in Python vengono utilizzati per eseguire operazioni a livello di bit su numeri interi. Questi operatori manipolano i bit individuali di un numero.
+
+| Operatore | Descrizione                     | Utilizzo         |
 |-----------|---------------------------------|------------------|
 | `&`       | AND bitwise                    | `a & b`          |
 | `\|`      | OR bitwise                     | `a \| b`          |
@@ -179,7 +184,9 @@ print(a >> 2) # Output: 2 (In binario: 0010)
 
 ## 6. Operatori di identità
 
-| Operatore | Descrizione                     | Esempio         |
+Gli operatori di identità vengono utilizzati per confrontare gli oggetti e determinare se due variabili si riferiscono allo stesso oggetto in memoria.
+
+| Operatore | Descrizione                     | Utilizzo         |
 |-----------|---------------------------------|------------------|
 | `is`      | Verifica se due variabili puntano allo stesso oggetto | `a is b`         |
 | `is not`  | Verifica se due variabili non puntano allo stesso oggetto | `a is not b`     |
@@ -201,8 +208,9 @@ print(a is not c)  # Output: True (a e c sono oggetti diversi)
 ```
 
 ## 7. Operatori di appartenenza
+Gli operatori di appartenenza vengono utilizzati per verificare se un valore è presente in una sequenza, come una lista, una tupla, un insieme o una stringa.
 
-| Operatore  | Descrizione                                         | Esempio         |
+| Operatore  | Descrizione                                         | Utilizzo         |
 |------------|-----------------------------------------------------|------------------|
 | `in`       | Verifica se un valore è presente in una sequenza   | `x in lista`     |
 | `not in`   | Verifica se un valore non è presente in una sequenza| `x not in lista` |
